@@ -1,0 +1,193 @@
+ #myImage{
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+    margin-left: 25%;
+    padding-top: 8%;
+  }
+  @media only screen and (max-width: 800px) {
+  #myImage{
+    max-width: 80%;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 12%;
+  }
+}
+  @font-face {
+    font-family: 'HACKED';
+    src:url('../fonts/HACKED.eot');
+    src:url('../fonts/HACKED.eot') format('embedded-opentype'),
+        url('../fonts/HACKED.woff2') format('woff2'),
+        url('../fonts/HACKED.woff') format('woff'),
+        url('../fonts/HACKED.ttf') format('truetype'),
+        url('../fonts/HACKED.svg#HACKED') format('svg');
+  }
+
+  .suit{
+    color: #12ff12;
+    font-family:'HACKED';
+  }
+
+  #whiteChar{
+    color: #ffffff;
+  }
+
+  @media only screen and (max-width: 800px){
+    .suit{
+      font-size: 8vw !important;
+    }
+    #experience .sectionHeader{
+      font-size: 12vw !important;
+    }
+  }
+  #name{
+    color: white;
+    font-size: 4vw;
+    padding-top: 3%;
+  }
+  @media only screen and (max-width: 800px){
+    #name{
+      font-size: 10vw;
+      padding-top: 0;
+    }
+  }
+  #navbar { 
+    transform: translateX(-100%); /* normal, hidden state */
+    transition: transform .5s cubic-bezier(.4,0,.2,1);
+  }
+  .nav-container:hover #navbar {
+    transform: translateX(0); /* when parent is hovered */
+  }
+  .nav-container:hover .box{
+    display: none;
+  }
+  #about, #experience{
+    background-color: #001a00;
+     /*background-color: #a4e57e;*/
+    font-family: "verdana";
+    color: #0a0;
+    text-shadow: 0 0 1px #0f0;
+    font: 15pt monospace;
+    /* font-size-adjust:0.35; */
+  /*  white-space: pre; */
+    tab-size: 4;
+    /*padding-bottom: 5%;*/
+  }
+  .aboutWrapper{
+    margin: auto;
+    max-width: 90%;
+  }
+  @media  only screen and (min-width: 1000px) {
+    .col-lg-6 {
+      padding: 2%; 
+    }
+    #input .col-lg-6{
+      margin: 2% 0;
+    }
+    #contact .col-lg-6{
+      margin: 2% 0;
+    }
+    #contactIconsHeader{
+      padding-bottom: 4rem;
+      padding-top: 3%;
+    }
+  }
+  .sectionHeader{
+    font-size: 4em;
+    color: #fff;
+    padding-top: 4%;
+    font-family: 'HACKED';
+  }
+  .sectionHeader h1{
+    display: inline-flex;
+  }
+  @media  only screen and (max-width: 900px) {
+    .sectionHeader{
+      font-size: 10vh;
+      color: #fff;
+      padding-top: 10%;
+      font-family: 'HACKED';
+    }
+    .col-lg-6{
+      padding-bottom: 10%;
+    }
+    #about{
+      font: 12px monospace;
+    }
+    .terminalName{
+      margin-top: 1%;
+      font: 12pt monospace;
+    }
+    /* #contactContainer{
+      display: inline-flex;
+    } */
+    /* #mailIcon{
+      padding-top: 5%;
+    } */
+  }
+  /* #contactContainer div{
+    margin: auto;
+    padding-left: 8%;
+  } */
+  /* #contactContainer i{
+    font-size: 7vh;
+    padding-left: 30%;
+    padding-bottom: 5%; 
+  } */
+
+  .social{
+    padding-top: 10%;
+    font-size: 4em;
+  }
+  .social a{
+    margin: auto;
+  }
+  .fa-facebook-square{
+      
+  }
+  .contactWrapper{
+    margin: auto;
+    max-width: 80%;
+  }
+  .expText{
+    color: #fff;
+    text-align: justify;
+    margin: auto;
+    max-width: 80%;
+    padding-bottom: 5%;
+  }
+  .mybtn {    
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background:linear-gradient(to bottom,#12ff12 2%,#228B22 100%);
+    border: none;
+    border-radius: 40px;
+}
+
+  .mybtn:hover {background:linear-gradient(to bottom,#228B22 2%,#12ff12 100%);}
+  /*#input{
+    background: #000 !important;
+    border: 2px solid #12ff12 !important;
+    font-size: .9em;
+    color: #12ff12 !important;
+    padding: 1em;
+    box-sizing:border-box;
+    width: 100%;
+    display: block;
+  }*/
+  /*.item {
+    width: 25%;
+    height: 25%;
+    height: auto;
+    /*float: left;
+    margin: auto;
+    padding: 3px;
+  }*/

@@ -1,0 +1,113 @@
+/*body{
+  /*background-color: #a4e57e;*/
+  /*font-family: "verdana";
+  color: #0a0;
+	text-shadow: 0 0 3px #0f0;
+	font: 15pt monospace;*/
+/* 	white-space: pre; */
+	/*tab-size: 4;*/
+  /*padding-bottom: 5%;
+}*/
+/*div{
+  position: relative;
+}*/
+
+.terminalBox{
+  height: 72vh;
+  width: 100%;
+  background-color: #002830;
+  display: block;
+  margin: auto;
+  position: relative;
+  border-radius: 5px 5px 10px 10px;
+}
+
+.terminalTab{
+  width: 100%;
+  background-color: #565656;
+  height: 30px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.circleX{
+  font-size: 20px;
+  font-family: "verdana";
+  width: 25px;
+  height: 25px;
+  background-color: #db4141;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 6px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.letterX{
+  display: block;
+/*  padding-top: 2px;*/
+}
+
+.terminalName{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 2px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f4b18;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #36882b;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #3f9b31;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #000000;
+}
+::-webkit-scrollbar-track:active {
+  background: #000000;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* html{
+	background: #000;
+	color: #0a0;
+	text-shadow: 0 0 3px #0f0;
+	font: 10pt monospace;
+	white-space: pre;
+	tab-size: 4;
+} */
+
+.terminalwrapper {
+  position: absolute;
+  white-space: pre;
+  width: 98%;
+  left:51%;
+  transform: translateX(-50%);
+  height: 92%;
+  font-size-adjust:0.35;
+  scrollbar-color: #3f9b31 #000000;
+  scrollbar-width: thin;
+  overflow-y: scroll;
+}

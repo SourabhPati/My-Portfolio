@@ -1,0 +1,43 @@
+/*body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #13234f, #21214d, #2c1e4b, #351c48, #3d1944);
+}*/
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-bar .label {
+  font-size: 5vh;
+  color: #f5f5f5;
+  font-family: 'HACKED';
+  margin-bottom: .5rem;
+}
+
+.progress-bar .line {
+  width: 80%;
+  height: 10px;
+  background: #e8e8e8;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 5px #e8e8e8;
+  margin: auto;
+}
+
+.progress-bar .line span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: pink;
+  border-radius: 10px;
+}
